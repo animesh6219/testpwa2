@@ -1,9 +1,9 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('testpwa').then((cache) => cache.addAll([
-      '/testpwa/',
-      '/testpwa/index.htm',
-      '/testpwa/index.js',
+      '/testpwa2/',
+      '/testpwa2/index.htm',
+      '/testpwa2/index.js',
     ])),
   );
 });
